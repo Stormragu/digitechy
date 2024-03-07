@@ -1,0 +1,638 @@
+SelectTenantsScreen As screen:
+    Fill: =RGBA(246.4821, 252.1556, 223.7881, 1)
+    Height: =800
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    Width: =360
+
+    "'Top Bar_4' As groupContainer.manualLayoutContainer":
+        Height: =68.2146911621094
+        LayoutMode: ="manual"
+        Width: =360
+        ZIndex: =1
+
+        "'Rectangle 1_4' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(184.2266, 244.7292, 123.7242, 1)
+            FocusedBorderThickness: =4
+            Height: =68.2146911621094
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =358.354431152344
+            ZIndex: =2
+
+        Tenants_1 As label:
+            Align: =Align.Center
+            BorderThickness: =1
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =68.2146911621094
+            LineHeight: =1.049
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="Tenants"
+            Width: =293.966247558594
+            X: =70.0337524414063
+            ZIndex: =3
+
+        "'Line 1_8' As image":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =1.3063109918221E-06
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =image1576
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =357.444946289063
+            Y: =68.2146606445313
+            ZIndex: =4
+
+        "'Line 1_9' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(128, 128, 128, 1)
+            FocusedBorderThickness: =4
+            Height: =68.2146911621094
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =2.71256794803776E-10
+            X: =68.2147216796875
+            ZIndex: =5
+
+        "'Menu 1_4' As image":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =68.2146911621094
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =image1577
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =68.2146911621094
+            ZIndex: =6
+
+    "'& Search' As rectangle":
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(128, 128, 128, 1)
+        FocusedBorderThickness: =4
+        Height: =43.6573944091797
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Width: =328.339996337891
+        X: =15.8300170898438
+        Y: =83.1082763671875
+        ZIndex: =7
+
+    "'Tenant Button_10' As groupContainer.manualLayoutContainer":
+        Height: =70.0337448120117
+        LayoutMode: ="manual"
+        Width: =328.340026855469
+        X: =15.71337890625
+        Y: =822.11865234375
+        ZIndex: =8
+
+        "'Rectangle 9_10' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.0337448120117
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =328.340026855469
+            ZIndex: =9
+
+        GUCCI As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =17.1193599700928
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="GUCCI"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =115.872085571289
+            X: =109
+            Y: =26
+            ZIndex: =10
+
+    "'Tenant Button_11' As groupContainer.manualLayoutContainer":
+        Height: =170.033752441406
+        LayoutMode: ="manual"
+        Width: =328.340026855469
+        X: =15.71337890625
+        Y: =914.11865234375
+        ZIndex: =11
+
+        "'Rectangle 9_11' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.0337448120117
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =328.340026855469
+            ZIndex: =12
+
+        KFC_1 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =17.1193599700928
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="KFC"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =115.872085571289
+            X: =109.143493652344
+            Y: =26.4571533203125
+            ZIndex: =13
+
+        "'Tenant Button_12' As groupContainer.manualLayoutContainer":
+            Height: =70.0337448120117
+            LayoutMode: ="manual"
+            Width: =328.340026855469
+            Y: =100
+            ZIndex: =14
+
+            "'Rectangle 9_12' As rectangle":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                DisabledFill: =RGBA(166, 166, 166, 1)
+                Fill: =RGBA(217, 217, 217, 1)
+                FocusedBorderThickness: =4
+                Height: =70.0337448120117
+                HoverFill: =RGBA(0, 120, 212, 1)
+                PressedFill: =RGBA(0, 120, 212, 1)
+                Width: =328.340026855469
+                ZIndex: =15
+
+            VANS As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =17.1193599700928
+                LineHeight: =0.55
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =27.285870552063
+                Text: ="VANS"
+                VerticalAlign: =VerticalAlign.Top
+                Width: =115.872085571289
+                X: =109.143493652344
+                Y: =26.4571533203125
+                ZIndex: =16
+
+    "'Tenant Button_13' As groupContainer.manualLayoutContainer":
+        Height: =170.033752441406
+        LayoutMode: ="manual"
+        Width: =328.340026855469
+        X: =14.71337890625
+        Y: =1106.11865234375
+        ZIndex: =17
+
+        "'Rectangle 9_13' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.0337448120117
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =328.340026855469
+            ZIndex: =18
+
+        SONY As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =17.1193599700928
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="SONY"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =115.872085571289
+            X: =109.143493652344
+            Y: =26.4571533203125
+            ZIndex: =19
+
+        "'Tenant Button_14' As groupContainer.manualLayoutContainer":
+            Height: =70.0337448120117
+            LayoutMode: ="manual"
+            Width: =328.340026855469
+            Y: =100
+            ZIndex: =20
+
+            "'Rectangle 9_14' As rectangle":
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                DisabledFill: =RGBA(166, 166, 166, 1)
+                Fill: =RGBA(217, 217, 217, 1)
+                FocusedBorderThickness: =4
+                Height: =70.0337448120117
+                HoverFill: =RGBA(0, 120, 212, 1)
+                PressedFill: =RGBA(0, 120, 212, 1)
+                Width: =328.340026855469
+                ZIndex: =21
+
+            PUMA As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =17.1193599700928
+                LineHeight: =0.55
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =27.285870552063
+                Text: ="PUMA"
+                VerticalAlign: =VerticalAlign.Top
+                Width: =115.872085571289
+                X: =109.143493652344
+                Y: =26.4571533203125
+                ZIndex: =22
+
+    "'Tenant Button_15' As groupContainer.manualLayoutContainer":
+        Height: =70.0337448120117
+        LayoutMode: ="manual"
+        Width: =328.340026855469
+        X: =15.8300170898438
+        Y: =141.6591796875
+        ZIndex: =23
+
+        "'Rectangle 9_15' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.0337448120117
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =328.340026855469
+            ZIndex: =24
+
+        Adidas_3 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =17.1193599700928
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="Adidas"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =115.872085571289
+            X: =109.143493652344
+            Y: =26.4571533203125
+            ZIndex: =25
+
+    "'Tenant Button_16' As groupContainer.manualLayoutContainer":
+        Height: =70.0337448120117
+        LayoutMode: ="manual"
+        Width: =328.340026855469
+        X: =15.8300170898438
+        Y: =226.58642578125
+        ZIndex: =26
+
+        "'Rectangle 9_16' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.0337448120117
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =328.340026855469
+            ZIndex: =27
+
+        Bossini_3 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="Bossini"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =135
+            X: =99.138671875
+            Y: =25.466796875
+            ZIndex: =28
+
+    "'Tenant Button_17' As groupContainer.manualLayoutContainer":
+        Height: =70.0337448120117
+        LayoutMode: ="manual"
+        Width: =328.340026855469
+        X: =15.8300170898438
+        Y: =311.513732910156
+        ZIndex: =29
+
+        "'Rectangle 9_17' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.0337448120117
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =328.340026855469
+            ZIndex: =30
+
+        "'Charles & Keith' As label":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="Charles & Keith"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =284
+            X: =24.5573120117188
+            Y: =25.4668579101563
+            ZIndex: =31
+
+    "'Tenant Button_18' As groupContainer.manualLayoutContainer":
+        Height: =70.0337448120117
+        LayoutMode: ="manual"
+        Width: =328.340026855469
+        X: =15.8300170898438
+        Y: =396.441040039063
+        ZIndex: =32
+
+        "'Rectangle 9_18' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.0337448120117
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =328.340026855469
+            ZIndex: =33
+
+        "'Food Republic' As label":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="Food Republic"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =246
+            X: =42.7478637695313
+            Y: =25.466796875
+            ZIndex: =34
+
+    "'Tenant Button_19' As groupContainer.manualLayoutContainer":
+        Height: =70.0337448120117
+        LayoutMode: ="manual"
+        Width: =328.340026855469
+        X: =15.8300170898438
+        Y: =481.368286132813
+        ZIndex: =35
+
+        "'Rectangle 9_19' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.0337448120117
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =328.340026855469
+            ZIndex: =36
+
+        "'McDonald’s_1' As label":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="McDonald’s"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =190
+            X: =70.0337524414063
+            Y: =25.466796875
+            ZIndex: =37
+
+    "'Tenant Button_20' As groupContainer.manualLayoutContainer":
+        Height: =70.0337448120117
+        LayoutMode: ="manual"
+        Width: =328.340026855469
+        X: =15.8300170898438
+        Y: =566.295654296875
+        ZIndex: =38
+
+        "'Rectangle 9_20' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.0337448120117
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =328.340026855469
+            ZIndex: =39
+
+        NTUC_3 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="NTUC"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =79
+            X: =126.424560546875
+            Y: =25.466796875
+            ZIndex: =40
+
+    "'Tenant Button_21' As groupContainer.manualLayoutContainer":
+        Height: =70.0337448120117
+        LayoutMode: ="manual"
+        Width: =328.340026855469
+        X: =15.8300170898438
+        Y: =651.222900390625
+        ZIndex: =41
+
+        "'Rectangle 9_21' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.0337448120117
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =328.340026855469
+            ZIndex: =42
+
+        Subway_1 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="Subway"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =116
+            X: =107.324462890625
+            Y: =25.466796875
+            ZIndex: =43
+
+    "'Tenant Button_22' As groupContainer.manualLayoutContainer":
+        Height: =70.0337448120117
+        LayoutMode: ="manual"
+        Width: =328.340026855469
+        X: =15.8300170898438
+        Y: =736.150146484375
+        ZIndex: =44
+
+        "'Rectangle 9_22' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.0337448120117
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =328.340026855469
+            ZIndex: =45
+
+        UNIQLO_1 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="UNIQLO"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =116
+            X: =107.324462890625
+            Y: =25.466796875
+            ZIndex: =46
+

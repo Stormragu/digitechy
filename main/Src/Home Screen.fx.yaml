@@ -1,0 +1,20 @@
+"'Home Screen' As screen":
+    Fill: =RGBA(246, 252, 224, 1)
+    Height: =800
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    Width: |
+        =480
+
+    Rectangle1 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(152, 208, 70, 1)
+        FocusedBorderThickness: =4
+        Height: =60
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Width: =480
+        ZIndex: =1
+

@@ -1,0 +1,411 @@
+iPhone14ProMax2 As screen:
+    Fill: =RGBA(246, 252, 224, 1)
+    Height: =932
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    Width: =222
+
+    "'Info box' As groupContainer.manualLayoutContainer":
+        Height: =54
+        LayoutMode: ="manual"
+        Width: =222
+        ZIndex: =1
+
+        "'Rectangle 2' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(209, 249, 125, 1)
+            FocusedBorderThickness: =4
+            Height: =54
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =222
+            ZIndex: =2
+
+        Tenants As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Bold
+            Height: =7.7142858505249
+            LineHeight: =1.210227
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =15
+            Text: ="Tenants "
+            VerticalAlign: =VerticalAlign.Top
+            Width: =84
+            X: =16
+            Y: =15
+            ZIndex: =3
+
+    "'Group 4' As groupContainer.manualLayoutContainer":
+        Height: =62
+        LayoutMode: ="manual"
+        Width: =248.089111328125
+        Y: =185
+        ZIndex: =4
+
+        "'Rectangle 10' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =62
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =248.089111328125
+            ZIndex: =5
+
+        Adidas As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="Adidas"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =116
+            X: =68
+            Y: =21
+            ZIndex: =6
+
+    "'Group 7' As groupContainer.manualLayoutContainer":
+        Height: =62
+        LayoutMode: ="manual"
+        Width: =248.089111328125
+        Y: =501
+        ZIndex: =7
+
+        "'Rectangle 10_1' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =62
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =248.089111328125
+            ZIndex: =8
+
+        "'McDonald’s' As label":
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="McDonald’s"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =190
+            X: =31
+            Y: =21
+            ZIndex: =9
+
+    "'Group 11' As groupContainer.manualLayoutContainer":
+        Height: =62
+        LayoutMode: ="manual"
+        Width: =248.089111328125
+        Y: =738
+        ZIndex: =10
+
+        "'Rectangle 10_2' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =62
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =248.089111328125
+            ZIndex: =11
+
+        UNIQLO As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="UNIQLO"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =116
+            X: =68
+            Y: =21
+            ZIndex: =12
+
+    "'Group 10' As groupContainer.manualLayoutContainer":
+        Height: =62
+        LayoutMode: ="manual"
+        Width: =248.089111328125
+        Y: =659
+        ZIndex: =13
+
+        "'Rectangle 10_3' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =62
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =248.089111328125
+            ZIndex: =14
+
+        Subway As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="Subway"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =116
+            X: =68
+            Y: =21
+            ZIndex: =15
+
+    "'Group 9' As groupContainer.manualLayoutContainer":
+        Height: =62
+        LayoutMode: ="manual"
+        Width: =248.089111328125
+        Y: =580
+        ZIndex: =16
+
+        "'Rectangle 10_4' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =62
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =248.089111328125
+            ZIndex: =17
+
+        NTUC As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="NTUC"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =79
+            X: =87
+            Y: =21
+            ZIndex: =18
+
+    "'Group 8' As groupContainer.manualLayoutContainer":
+        Height: =62
+        LayoutMode: ="manual"
+        Width: =248.089111328125
+        Y: =106
+        ZIndex: =19
+
+        "'Rectangle 10_5' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =62
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =248.089111328125
+            ZIndex: =20
+
+        OVERALL As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =16
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="OVERALL"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =142
+            X: =62
+            Y: =23
+            ZIndex: =21
+
+    "'Group 6' As groupContainer.manualLayoutContainer":
+        Height: =62
+        LayoutMode: ="manual"
+        Width: =248.089111328125
+        Y: =422
+        ZIndex: =22
+
+        "'Rectangle 10_6' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =62
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =248.089111328125
+            ZIndex: =23
+
+        FoodRepublic As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="FoodRepublic"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =228
+            X: =7
+            Y: =21
+            ZIndex: =24
+
+    "'Group 5' As groupContainer.manualLayoutContainer":
+        Height: =62
+        LayoutMode: ="manual"
+        Width: =248.089111328125
+        Y: =343
+        ZIndex: =25
+
+        "'Rectangle 10_7' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =62
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =248.089111328125
+            ZIndex: =26
+
+        "'C&K' As label":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="C&K"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =60
+            X: =90
+            Y: =21
+            ZIndex: =27
+
+    "'Group 12' As groupContainer.manualLayoutContainer":
+        Height: =62
+        LayoutMode: ="manual"
+        Width: =248.089111328125
+        Y: =264
+        ZIndex: =28
+
+        "'Rectangle 10_8' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =62
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =248.089111328125
+            ZIndex: =29
+
+        Bossini As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="Bossini"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =135
+            X: =59
+            Y: =21
+            ZIndex: =30
+

@@ -1,0 +1,319 @@
+StatsScreen2 As screen:
+    Fill: =RGBA(246.4821, 252.1556, 223.7881, 1)
+    Height: =800
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    Width: =360
+
+    "'16 Jan 2023' As label":
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Height: =68.7022933959961
+        LineHeight: =1.049
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =27.4809150695801
+        Text: ="16 Jan 2023"
+        Width: =327.358764648438
+        X: =18.3206176757813
+        Y: =165.801513671875
+        ZIndex: =1
+
+    "'NTUC ABC Mall_3' As label":
+        Align: =Align.Center
+        BorderThickness: =1
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Height: =98.9312973022461
+        LineHeight: =1.049
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =27.4809150695801
+        Text: |-
+            ="NTUC 
+            ABC Mall"
+        Width: =327.358764648438
+        X: =18.3206176757813
+        Y: =68.7022705078125
+        ZIndex: =2
+
+    "'Line 2_1' As rectangle":
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(128, 128, 128, 1)
+        FocusedBorderThickness: =4
+        Height: =1.30171656564926E-07
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Width: =323.358764648438
+        X: =18.3206176757813
+        Y: =167.633544921875
+        ZIndex: =3
+
+    "'Line 14_1' As rectangle":
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(128, 128, 128, 1)
+        FocusedBorderThickness: =4
+        Height: =1.30171656564926E-07
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Width: =323.358764648438
+        X: =18.3206176757813
+        Y: =234.503784179688
+        ZIndex: =4
+
+    "'Bar Chart' As groupContainer.manualLayoutContainer":
+        Height: =349.923675537109
+        LayoutMode: ="manual"
+        Width: =317.374053955078
+        X: =29.31298828125
+        Y: =268.39697265625
+        ZIndex: =5
+
+        "'Rectangle 4' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(73.94999, 28.6875, 255, 1)
+            FocusedBorderThickness: =4
+            Height: =327.938934326172
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =42.1374053955078
+            X: =12.8244018554688
+            Y: =21.9847412109375
+            ZIndex: =6
+
+        "'Rectangle 5' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(73.94999, 28.6875, 255, 1)
+            FocusedBorderThickness: =4
+            Height: =231.755722045898
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =42.1374053955078
+            X: =71.4503784179688
+            Y: =118.16796875
+            ZIndex: =7
+
+        "'Rectangle 6' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(73.94999, 28.6875, 255, 1)
+            FocusedBorderThickness: =4
+            Height: =168.549621582031
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =42.1374053955078
+            X: =130.076354980469
+            Y: =181.3740234375
+            ZIndex: =8
+
+        "'Rectangle 7' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(73.94999, 28.6875, 255, 1)
+            FocusedBorderThickness: =4
+            Height: =116.335876464844
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =42.1374053955078
+            X: =188.702270507813
+            Y: =233.587890625
+            ZIndex: =9
+
+        "'Rectangle 8' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(73.94999, 28.6875, 255, 1)
+            FocusedBorderThickness: =4
+            Height: =101.679389953613
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =42.1374053955078
+            X: =247.328247070313
+            Y: =248.244384765625
+            ZIndex: =10
+
+        "'Line 15_4' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(128, 128, 128, 1)
+            FocusedBorderThickness: =4
+            Height: =2.63469592027832E-05
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =301.374053955078
+            Y: =349.923583984375
+            ZIndex: =11
+
+        "'Line 16' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(128, 128, 128, 1)
+            FocusedBorderThickness: =4
+            Height: =349.923675537109
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =1.13686837721616E-13
+            ZIndex: =12
+
+    "'Pie Chart' As groupContainer.manualLayoutContainer":
+        Height: =263.816802978516
+        LayoutMode: ="manual"
+        Width: =263.816802978516
+        X: =48.5
+        Y: =668.22900390625
+        ZIndex: =13
+
+        "'Ellipse 6' As image":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =263.816802978516
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =image7155
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =263.816802978516
+            ZIndex: =14
+
+        "'Ellipse 7' As image":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =263.816802978516
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =image7157
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =263.816802978516
+            ZIndex: =15
+
+        "'Line 17' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(128, 128, 128, 1)
+            FocusedBorderThickness: =4
+            Height: =116.335884094238
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =58.6259574890137
+            X: =131.908386230469
+            Y: =15.572509765625
+            ZIndex: =16
+
+    "'Top Bar_6' As groupContainer.manualLayoutContainer":
+        Height: =68.7022933959961
+        LayoutMode: ="manual"
+        Width: =360
+        ZIndex: =17
+
+        "'Rectangle 1_6' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(184.2266, 244.7292, 123.7242, 1)
+            FocusedBorderThickness: =4
+            Height: =68.7022933959961
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =360
+            ZIndex: =18
+
+        "'Menu 1_6' As image":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =68.7022933959961
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =image678
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =68.7022933959961
+            ZIndex: =19
+
+        "'Line 1_12' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(128, 128, 128, 1)
+            FocusedBorderThickness: =4
+            Height: =68.7022933959961
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =2.73189471045043E-10
+            X: =68.7022705078125
+            ZIndex: =20
+
+        Dashboard_6 As label:
+            Align: =Align.Center
+            BorderThickness: =1
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =68.7022933959961
+            LineHeight: =1.049
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.4809150695801
+            Text: ="Dashboard"
+            Width: =295.297698974609
+            X: =68.7022705078125
+            ZIndex: =21
+
+        "'Line 1_13' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(128, 128, 128, 1)
+            FocusedBorderThickness: =4
+            Height: =1.31564866023837E-06
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =360
+            Y: =68.7022705078125
+            ZIndex: =22
+

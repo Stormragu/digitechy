@@ -1,0 +1,335 @@
+SelectWasteCategoryScreen As screen:
+    Fill: =RGBA(246, 252, 224, 1)
+    Height: =800
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    Width: =360
+
+    "'Top Bar_1' As groupContainer.manualLayoutContainer":
+        Height: =68.7022933959961
+        LayoutMode: ="manual"
+        Width: =362.573303222656
+        ZIndex: =1
+
+        "'Rectangle 1_1' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(184.2266, 244.7292, 123.7242, 1)
+            FocusedBorderThickness: =4
+            Height: =68.7022933959961
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =360.916015625
+            ZIndex: =2
+
+        "'Waste Category' As label":
+            Align: =Align.Center
+            BorderThickness: =1
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =68.7022933959961
+            LineHeight: =1.049
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.4809150695801
+            Text: ="Waste Category"
+            Width: =296.038940429688
+            X: =70.5343627929688
+            ZIndex: =3
+
+        "'Line 1_2' As image":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =1.31564866023837E-06
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =image15279
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =360
+            Y: =68.7022705078125
+            ZIndex: =4
+
+        "'Line 1_3' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(128, 128, 128, 1)
+            FocusedBorderThickness: =4
+            Height: =68.7022933959961
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =2.73246314463904E-10
+            X: =68.7023010253906
+            ZIndex: =5
+
+        "'Menu 1_1' As image":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =68.7022933959961
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =image15281
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =68.7022933959961
+            ZIndex: =6
+
+    "'Tenant Button_2' As groupContainer.manualLayoutContainer":
+        Height: =70.5343475341797
+        LayoutMode: ="manual"
+        Width: =330.68701171875
+        X: =13.7404479980469
+        Y: =163.053466796875
+        ZIndex: =7
+
+        "'Rectangle 9_2' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.5343475341797
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =330.68701171875
+            ZIndex: =8
+
+        "'Paper & Cardboard' As label":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =20.1526718139648
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.4809150695801
+            Text: ="Paper & Cardboard"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =322.778625488281
+            X: =6.41220092773438
+            Y: =25.6488647460938
+            ZIndex: =9
+
+    "'Tenant Button_3' As groupContainer.manualLayoutContainer":
+        Height: =70.5343475341797
+        LayoutMode: ="manual"
+        Width: =330.68701171875
+        X: =13.7404479980469
+        Y: =248.244262695313
+        ZIndex: =10
+
+        "'Rectangle 9_3' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.5343475341797
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =330.68701171875
+            ZIndex: =11
+
+        Plastics As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =21
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.4809150695801
+            Text: ="Plastics"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =154
+            X: =89.77099609375
+            Y: =25.6488647460938
+            ZIndex: =12
+
+    "'Tenant Button_4' As groupContainer.manualLayoutContainer":
+        Height: =70.5343475341797
+        LayoutMode: ="manual"
+        Width: =330.68701171875
+        X: =14.656494140625
+        Y: =333.435119628906
+        ZIndex: =13
+
+        "'Rectangle 9_4' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.5343475341797
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =330.68701171875
+            ZIndex: =14
+
+        Glass As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =21
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.4809150695801
+            Text: ="Glass"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =98
+            X: =117.251892089844
+            Y: =25.6488647460938
+            ZIndex: =15
+
+    "'Tenant Button_5' As groupContainer.manualLayoutContainer":
+        Height: =70.5343475341797
+        LayoutMode: ="manual"
+        Width: =330.68701171875
+        X: =13.7404479980469
+        Y: =418.6259765625
+        ZIndex: =16
+
+        "'Rectangle 9_5' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.5343475341797
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =330.68701171875
+            ZIndex: =17
+
+        Metals As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =21
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.4809150695801
+            Text: ="Metals"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =117
+            X: =109.923675537109
+            Y: =25.6488647460938
+            ZIndex: =18
+
+    "'Tenant Button_6' As groupContainer.manualLayoutContainer":
+        Height: =70.5343475341797
+        LayoutMode: ="manual"
+        Width: =330.68701171875
+        X: =14.656494140625
+        Y: =503.816772460938
+        ZIndex: =19
+
+        "'Rectangle 9_6' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.5343475341797
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =330.68701171875
+            ZIndex: =20
+
+        "'Food Waste' As label":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =21
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.4809150695801
+            Text: ="Food Waste"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =192
+            X: =70.5343627929688
+            Y: =25.6488037109375
+            ZIndex: =21
+
+    "'Tenant Button_7' As groupContainer.manualLayoutContainer":
+        Height: =70.5343475341797
+        LayoutMode: ="manual"
+        Width: =330.68701171875
+        X: =14.656494140625
+        Y: =589.007568359375
+        ZIndex: =22
+
+        "'Rectangle 9_7' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(217, 217, 217, 1)
+            FocusedBorderThickness: =4
+            Height: =70.5343475341797
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =330.68701171875
+            ZIndex: =23
+
+        Others As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =21
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.4809150695801
+            Text: ="Others"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =117
+            X: =108.091613769531
+            Y: =25.6488037109375
+            ZIndex: =24
+

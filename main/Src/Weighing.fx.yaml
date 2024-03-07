@@ -1,0 +1,254 @@
+Weighing As screen:
+    Fill: =RGBA(246.4821, 252.1556, 223.7881, 1)
+    Height: =800
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    Width: =360
+
+    "'Top Bar_3' As groupContainer.manualLayoutContainer":
+        Height: =68.3333587646484
+        LayoutMode: ="manual"
+        Width: =358.354431152344
+        ZIndex: =1
+
+        "'Rectangle 1_3' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(184.2266, 244.7292, 123.7242, 1)
+            FocusedBorderThickness: =4
+            Height: =68.2146911621094
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =358.354431152344
+            ZIndex: =2
+
+        "'Weigh me_2' As label":
+            Align: =Align.Center
+            BorderThickness: =1
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =68.2146911621094
+            LineHeight: =1.049
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="  Weigh me"
+            Width: =293.966247558594
+            X: =33.71337890625
+            Y: =0.11865234375
+            ZIndex: =3
+
+        "'Line 1_6' As image":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =1.3063109918221E-06
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =image2211
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =357.444946289063
+            Y: =68.2147216796875
+            ZIndex: =4
+
+        "'Line 1_7' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(128, 128, 128, 1)
+            FocusedBorderThickness: =4
+            Height: =68.2146911621094
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =2.71285216513206E-10
+            X: =68.2146911621094
+            ZIndex: =5
+
+        "'Menu 1_3' As image":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =68.2146911621094
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =image2213
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =68.2146911621094
+            ZIndex: =6
+
+    "'Group 1_1' As groupContainer.manualLayoutContainer":
+        Height: =249
+        LayoutMode: ="manual"
+        Width: =276
+        X: =42
+        Y: =327
+        ZIndex: =7
+
+        "'Ellipse 8_1' As image":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =249
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =image2243
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =276
+            ZIndex: =8
+
+        "'51.5 kg' As label":
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =90
+            LineHeight: =1.049
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.285870552063
+            Text: ="51.5 kg"
+            Width: =201
+            X: =37
+            Y: =74
+            ZIndex: =9
+
+    "'Group 2_1' As groupContainer.manualLayoutContainer":
+        Height: =99
+        LayoutMode: ="manual"
+        Width: =343.358764648438
+        X: =18
+        Y: =90
+        ZIndex: =10
+
+        "'NTUC ABC Mall_1' As label":
+            Align: =Align.Center
+            BorderThickness: =1
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =98.9312973022461
+            LineHeight: =1.049
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.4809150695801
+            Text: |-
+                ="NTUC 
+                ABC Mall"
+            Width: =327.358764648438
+            ZIndex: =11
+
+        "'Line 15_2' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(128, 128, 128, 1)
+            FocusedBorderThickness: =4
+            Height: =1.30171542878088E-07
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =323.358764648438
+            Y: =99
+            ZIndex: =12
+
+    "'Glass Bag 3_1' As label":
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Height: =68.7022933959961
+        LineHeight: =1.049
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =27.4809150695801
+        Text: ="Glass Bag 3"
+        Width: =327.358764648438
+        X: =18
+        Y: =189
+        ZIndex: =13
+
+    "'Line 15_3' As rectangle":
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(128, 128, 128, 1)
+        FocusedBorderThickness: =4
+        Height: =1.30171542878088E-07
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Width: =323.358764648438
+        X: =16
+        Y: =258
+        ZIndex: =14
+
+    "'Tenant Button_9' As groupContainer.manualLayoutContainer":
+        Height: =70.5343475341797
+        LayoutMode: ="manual"
+        Width: =330.68701171875
+        X: =15
+        Y: =622
+        ZIndex: =15
+
+        "'Rectangle 9_9' As rectangle":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(184.2266, 244.7292, 123.7242, 1)
+            FocusedBorderThickness: =4
+            Height: =70.5343475341797
+            HoverFill: =RGBA(0, 120, 212, 1)
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: =330.68701171875
+            ZIndex: =16
+
+        Submit_1 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =21
+            LineHeight: =0.55
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =27.4809150695801
+            Text: ="Submit"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =117
+            X: =108.091613769531
+            Y: =25.6488037109375
+            ZIndex: =17
+
